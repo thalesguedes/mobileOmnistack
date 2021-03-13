@@ -17,6 +17,7 @@ function connect(latitude, longitude, techs){
 
     socket.connect();
 
+    
 }
 
 function disconnect() {

@@ -8,4 +8,5 @@ function Profile({ navigation }) {
 
 }
 
+
 export default Profile;

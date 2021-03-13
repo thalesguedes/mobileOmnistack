@@ -37,6 +37,7 @@ function Main({navigation}) {
         subscribeToNewDevs(dev => setDevs([...devs, dev]));
     }, [devs]);
 
+    
     function setupWebsocket() {
         disconnect();
 
